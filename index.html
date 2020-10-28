@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>news block</title>
+        <!-- contect to css file -->
+        <link rel="stylesheet" href="css/index.css">
+        
+    </head>
+    <body>
+        <!-- start Header -->
+
+        <header class="mainHeader">
+            <h1>Html5 Course </h1>
+         </header>
+
+        <!-- End Header -->
+
+         <!-- start navigation -->
+
+         <nav>
+             <ul>
+                 <li>Home</li>
+                 <li>About</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+             </ul>
+         </nav>
+
+         <!-- End navigation-->
+
+         <!-- start main content --> 
+
+         <!-- the main content usually does not Repeat -->
+         <main>
+             <p>Welcome to Our <span> <mark>Html5 Course</mark>  </span> From Elzero Web School</p>
+         </main>
+
+         <!-- End main content -->
+
+         <!-- Start article -->
+
+         <div class="post">
+            <article >
+                <header>
+                    <!-- Html time tag -->
+                    <h3> Article 00#1  </h3> 
+                    <p>Created by <span>Saddam Arbaa</span> on :
+                    <time datetime ="2020-10-20"> 10/20/2020</time> </p>
+                </header>
+                <section>
+                    <h4> my Programming Skills so far after 5 month of hard work</h4>
+                    <div> 
+                        <!-- about html Progress tag -->
+                        python :&nbsp;
+                               <progress value="55" max="100"></progress> <br>
+                        Html &nbsp; :&nbsp; &nbsp;
+                               <progress value="40" max="100"></progress> <br>
+                        css &nbsp; &nbsp;:&nbsp; &nbsp;
+                        <progress value="20" max="100"></progress> 
+                    </div>
+                </section>
+            </article>
+
+            <article>
+                <header> 
+                    <!-- Html time tag -->
+                    <h3> Google Chrome  </h3> 
+                    <p>Created by <span>Saddam Arbaa</span> on :
+                    <time datetime ="2020-10-20"> 10/20/2020 </time> </p>
+                </header>
+                <section> <!-- about Google Chrome -->
+                    <p>Google Chrome is a web browser developed by Google,
+                         released in 2008. Chrome is the world's most popular web browser today!</p></section>
+                <!-- Html Details Tag -->
+                <section>
+                    <p>This Article Content Number 002#</p>
+                    <p>
+                        <details>
+                            <summary>Reference</summary>
+                            <ul>
+                                <li>Reference 1</li>
+                                <li>Reference 2</li>
+                                <li>Reference 3</li>
+                            </ul>
+                        </details>
+                    </p>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Mozilla Firefox</h3>
+                    <p>Created by <span>Saddam Arbaa</span> on :
+                    <time datetime ="2020-10-20"> 10/20/2020 </time> </p>
+
+                </header>
+                <section> <!-- about Mozilla Firefox-->
+                    <p>Mozilla Firefox is an open-source web 
+                        browser developed by Mozilla. Firefox 
+                        has been the second most popular web 
+                        browser since January, 2018.</p>
+                </section>
+                <section> <!-- Microsoft Edge-->
+                    <h3>Microsoft Edge</h3>
+                    <p>
+                        Microsoft Edge is a web browser developed by Microsoft, 
+                        released in 2015. Microsoft Edge replaced Internet Explorer..</p>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3> Article About using code Inside &lt;Figure&gt;, &lt;Figcaption&gt;  </h3>
+                     <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html time tag -->
+                    <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                </header>
+                <!-- HTML Figure, Figcaption Tag-->
+                <!-- figure can be used in image and books -->
+                <section>
+                       <p>this code Describe the Div syntax</p>
+                       <figure>
+                           <figcaption>This is div syntax 1-3 </figcaption>
+                            <code>
+                                &lt;div&gt;this normail syntax for div &lt;div&gt;
+                            </code> 
+                       </figure>
+                </section>
+            </article>
+
+            <article> <!-- Html Images -->
+                <header>
+                    <h3> Article About using Images Inside &lt;Figure&gt;, &lt;Figcaption&gt;  </h3>
+                    <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html time tag -->
+                    <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                </header>
+                <!-- HTML Figure, Figcaption Tag with image-->
+                <section>
+                       <p>this code Describe the Images Inside Figure </p>
+                       <figure class="img-figure">
+                            <img 
+                                src   =  "images/xxx.jpg" 
+                                alt   =  "here there was image" 
+                                title = "Saddam ARbaa"> 
+                                <!-- second image-->
+                                <img 
+                                src   =  "images/xx.jpg" 
+                                alt   =  "here there was image" 
+                                title = "Saddam ARbaa">
+                                <!-- thrid image-->
+                                <img 
+                                src   =  "images/x.jpg" 
+                                alt   =  "here there was image" 
+                                title = "Saddam ARbaa"> 
+                                <figcaption>Three Images of Saddam see the full lsit <a href="#"> Here </a> </figcaption>
+                        </figure>
+                    </section>
+            </article>
+
+           <!--  HTML Multimedia -->
+           <!--  The HTML <Video> Element -->
+            <article>
+                <header> 
+                    <h3> Article About using The HTML &lt;video &gt; , &lt;/&gt; Element  </h3>
+                    <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html <Video> tag -->
+                    <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                    <p>first Recommended video </p>
+                </header>
+                <section style="text-align:center">
+                    <!---- this will call Javascript function -->
+                    <button onclick="playPause()">Play/Pause</button>
+                    <button onclick="makeNormal()">Normal</button> 
+                    <button onclick="makeSmall()">Small</button>
+                    <button onclick="makeMedium()"> Medium</button>
+                </section>
+                <section style="text-align:center">
+                    <!-- first video -->
+                    <video id ="video1" controls width="100%">
+                        <source src="../Media/Booleans.mp4" type="video/mp4">
+                        <source src="" type="">
+                        <source src="" type="">
+                        Your browser Don Support Video technologies
+                    </video>
+                    <p>Boolean data type <a href="#" target="_blank">Kasey Champion</a>.</p>
+                
+                    <!-- second video -->
+                    <!-- HTML YouTube Videos -->
+                    <header> 
+                        <h3> section about using html Youtube videos </h3>
+                        <p> Created by <span>Saddam Arbaa</span> on :
+                        <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                    </header>
+                    <!-- YouTube - Autoplay + Muted -->
+                    <!-- 
+                        this video will start play automatically 
+                        until finished and then again loop from start and 
+                         play however the video is muted -->
+                        <iframe 
+                            width         = 100% 
+                            height        = "350" 
+                            src           = "https://www.youtube.com/embed/FPWkm-WyXRo?autoplay=1&mute=1&playlist=FPWkm-WyXRo&loop=1" 
+                            frameborder   = "0" 
+                            allow         = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"> 
+                            allowfullscreen>
+                        </iframe>
+                    </video>
+                    <p>
+                        HTML Multimedia <a href="#" target="_blank"> Elzero Web School </a></p>
+                </section>
+            </article>
+
+            <article> <!-- Html form -->
+                <header>
+                    <h3> Article About New HTML Form Input Field </h3>
+                    <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html time tag -->
+                    <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                </header>
+                <!-- HTML Forms -->
+                <section>
+                    <h4>HTML Form</h4>
+                    <h4>New Input Field</h4>
+                    <!-- form Action its the place where all the information will be send -->
+                    <!-- method = "Get" the information will be send to server but you can see them in the link
+                          Method = "post" you cant see the information on the link after send-->
+                     <form class="html5" action="../php/process.php"  method="GET">
+                        <!--Input Type text with required  and Autofocus  -->
+                        <label >First name:</label>
+                        <input type="text" name = "User Name" required Autofocus = "on" placeholder="first name :"> 
+                        <label >Last name:</label>
+                        <input type="text" name="last name" required Autofocus = "on" placeholder="Last name:"> 
+                        <label >Nick Name</label>
+                        <input type="text" name="Nick Name" required Autofocus = "on" placeholder="Nick Name :"> 
+                    
+                        <!--radio Buttons-->
+                        <div class="gender">
+                            <label for="">gender Buttons</label> <br>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>  <br>
+                            <input type="radio" id="femal" name="gender" value="female">
+                            <label for="femal">femal</label> <br>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                        <!--The <select> Element-->
+                        <label for="">Select Your Favorite browser</label>
+                        <select name="browser" id="browser"> 
+                            <option value="" selected>google Chrome</option>
+                            <option value="">Opera</option>
+                            <option value="">Internet Explorer</option>
+                            <option value="">Mozilla Firefox</option>
+                            <option value="">Safari</option> 
+                        </select>
+                        <!--The <textarea> Element-->
+                        <label for="message">Write Your Message Here</label>
+                        <textarea name="message" id="message" cols="30" rows="10" style="width:250px; ">
+                        </textarea>
+              
+                        <!--Input Type color -->
+                        <label >color</label>
+                        <input type="color" name="cheme" value="#0000ff"> 
+                        <!--Input Type Range-->
+                        <!--The <input type="range"> defines a control for entering a number whose exact value is not important 
+                            (like a slider control).-->
+                        <label >range</label> 
+                        <input type="range" name="choose" value="2" min="0" max="100" step="50">
+                        <!-- Input Type Number  defines a numeric input field.-->
+                        <label> number</label> 
+                        <input type="number" name="choose" value="0" min="0" max="100" step ="1">
+                        <input type="number" name="choose" value="0" min="5" max="100" step ="10">
+                        <!-- Input Type Search -->
+                        <label >Search</label> 
+                        <input type="Search" name="search" >
+                        <!-- Input Type Url -->
+                        <!-- The <input type="url"> is used for input fields that should contain a URL address. -->
+                        <label>url</label>
+                        <input type="url" name="link">
+                        <!-- Input Type Tel-->
+                        <!-- The <input type="tel"> is used for input fields that 
+                            should contain a telephone number.-->
+                        <label for="">telephone</label>
+                        <input type="text" name="phone" pattern="[0-9]{10}" required autocomplete="off" placeholder="number : [0-9] only">  
+                        <!-- Input Type Email -->
+                        <!-- The <input type="email"> is used for input fields that should contain an e-mail address. -->
+                        <!--email with required and  autocomplete="off"  -->
+                        <label for="">email</label>
+                        <input type="email" name="email" required autocomplete="off"> 
+                        <!-- Input Type password -->
+                        <!--password with required and  autocomplete="off"  -->
+                        <label for="">password</label>
+                        <input type="password" name="password" required autocomplete="off">   
+                        <label for="">PIN:</label>
+                        <input type="text" id="pin" name="pin" size="4">
+                        <!-- Input Type time -->
+                        <label for="">time</label>
+                        <input type="time" name="time">
+                        <!-- Input Type datetime -->
+                        <label for="">datetime</label>
+                        <input type="datetime-local" name="datetime">
+                        <!-- Input Type date -->
+                        <label for="">date</label>
+                        <input type="date" name="date">
+                        <!-- Input Type month -->
+                        <label for="">month</label>
+                        <input type="month" name="month">
+                        <!-- Input Type week -->
+                        <label for="">week</label>
+                        <input type="week" name="week">
+                        <input type="submit" value="Default Submit" formtarget ="_blank" > 
+                        <!-- the information will to diffrent server -->
+                        <!--Overwrite the formAction and form methods-->
+                        <input type="submit" formaction="../php/ohters.php" formmethod="POST" value= "Submit To Different Server" formtarget ="_blank" >
+                         <!-- Overwrite the form validation -->
+                         <input type="submit" value="submit without validation" formnovalidate formtarget ="_blank" >
+                          <!-- Input Type reset -->
+                          <input type="reset" value="Reset">
+                    </form>
+                </section>
+            </article>
+
+            <article> <!-- Html form continoue -->
+                <header>
+                    <h3> Article About New Form Input Field </h3>
+                    <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html time tag -->
+                    <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                </header>
+                <!-- HTML Form Input - AutoComplete, Autofocus,NoValidate -->
+                <section>
+                    <p><h5>New Input Field</h5></p>
+                    <!--form Action its the place where all the information will be send -->
+                    <!-- method = "Get" the information will be send to server but you can see them in the link
+                     Method = "post" you cant see the information on the link after send-->
+                    <form class="html5" action="../php/process.php"  method="POST">
+                        <!--Input Type text with required  and Autofocus  -->
+                        <label >name</label>
+                        <input type="text" name = "User Name" required Autofocus = "on" placeholder="Your first name :"> 
+                        <label >Nick Name</label>
+                        <input type="text" name="Nick Name" required Autofocus = "on" placeholder="Nick Name :"> 
+                         <!--Input Type text with Read only -->
+                         <label for="">Read only</label>
+                         <input type="text" name ="red only" readonly value="this one to ready only">
+                        <!--Input Type text with disabled  -->
+                        <!--Input Type text with disabled  -->
+                        <label >(disabled)</label>
+                        <input type="text" name="name" disabled placeholder= "this one is disabled">
+                        <!--Input Type file( here can upload multiple files)   -->
+                        <label for="">Upload file</label>
+                        <input type="file" multiple>
+                        <!--Input Type email with required and  autocomplete="off"  -->
+                        <label for="">email</label>
+                        <input type="email" name="email"  required autocomplete="off" placeholder="email :">  
+                        <input type="submit" value="Default Submit" >
+                        <!-- the information will to diffrent server -->
+                        <!--Overwrite the formAction and form methods-->
+                        <input type="submit" formaction="../php/ohters.php" formmethod="Get" value= "Submit To Different Server" >
+                        <!-- Overwrite the form validation -->
+                        <input type="submit" value="Submit Without Validation" formnovalidate formtarget ="_blank" >
+                        <!-- Input Type reset -->
+                        <input type="reset" value="Reset">
+                    </form>
+                </section>
+            </article>
+
+            <!-- canvas -->
+            <article> <!-- Html canvas -->
+                <header>
+                    <h3> Article About Html Canvas </h3>
+                    <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html time tag -->
+                    <time datetime ="2020-10-22"> 10/22/2020</time> </p>
+                </header>
+                <section>
+                    <canvas id="cav1">
+                    </canvas>
+                </section>
+            </article>
+
+            <article> <!-- Html Canvas continoue -->
+                <header>
+                    <h3> Article About Html Canvas(draw line) </h3>
+                    <p> Created by <span>Saddam Arbaa</span> on :
+                    <!-- Html time tag -->
+                    <time datetime ="2020-10-21"> 10/21/2020</time> </p>
+                </header>
+                <section>
+                    <canvas id="cav7"></canvas>
+                </section>
+            </article>
+
+         </div>
+
+         <!-- End article -->
+
+         <!-- Start sidebar -->
+         <aside>
+             <section class="links">
+                 <h3>Categeries</h3>
+                 <ul>
+                     <li>Intreo</li>
+                     <li>Semantics</li>
+                     <li>Api</li>
+                     <li>New Attributes</li>
+                     <li>Multimedia</li>
+                 </ul>
+             </section>
+             <!-- Html meters -->
+             <section class="meters">
+                <h3>Performance</h3>
+                <div>
+                    <!-- Hight case -->
+                    CPU : <meter
+                                min     =  "0.0"
+                                max     =  "1.0"
+                                value   =   "0.81"
+                                low     =   "0.5"
+                                high    =   "0.8"
+                                optimum =    "0.6"> 
+                            </meter> <br>
+                    <!-- normail case -->
+                    RAM : <meter
+                                min     =  "0.0"
+                                max     =  "1.0"
+                                value   =   "0.5"
+                                low     =   "0.5"
+                                high    =   "0.8"
+                                optimum =    "0.6"> 
+                    </meter> <br>
+                    <!-- low case -->
+                    cash : <meter
+                                min     =  "0.0"
+                                max     =  "1.0"
+                                value   =   "0.4"
+                                low     =   "0.5"
+                                high    =   "0.8"
+                                optimum =    "0.6"> 
+                    </meter> <br>
+                    <!-- value less than low less 
+                        than high and less than optimum -->
+                    DVD : <meter
+                                min     =  "0.0"
+                                max     =  "1.0"
+                                value   =   "0.2"
+                                low     =   "0.5"
+                                high    =   "0.8"
+                                optimum =    "0.9"> 
+                </meter>
+                </div>
+            </section> 
+
+            <!-- HTML <bdi> Tag -->
+            <!-- BDI stands for Bi-Directional Isolation. -->
+            <section class="top-memebers">
+                <h3>Top Memebrs</h3>
+                <ul> <!-- HTML <bdi> Tag -->
+                    <li>Sadam&nbsp; :     &nbsp; 90 point</li>
+                    <li>Johon&nbsp;&nbsp; : &nbsp; 80 point</li>
+                    <li>Aliaden&nbsp;&nbsp;: &nbsp; 75 point</li>
+                    <li><bdi>صدام </bdi>&nbsp;&nbsp; &nbsp; &nbsp;: &nbsp; 85 point</li>
+                    <li><bdi>إيان</bdi>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;: &nbsp; &nbsp; 75 point</li>
+                </ul>
+            </section>
+
+            <!-- HTML <datalist> Tag -->
+            <section class="poll">
+                <h3>Choose your favorite browser from the list :</h3>
+                <form>
+                    <input list  = "browser">
+                    <datalist id = "browser">
+                        <option value="Google Chrome">
+                        <option value="Opera">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Edge">
+                        <option value="Internet Explorer">
+                        <option value=" Netscape ">
+                        <option value="Opera Mini">
+                    </datalist>
+                    <input type="submit">
+                </form>
+            </section>
+
+            <!-- HTML HTML <output> Tag(new from tag) -->
+            <!-- The <output> tag is used to represent the result of a calculation -->
+            <!-- calculate User age using little bit syntax of Javascript -->
+           <section class = "calculate-age">
+               <h3>Calculate Your Age in Days</h3>
+               <form oninput = "result.value = parseInt(age.value) * 
+                                 parseInt(days.value) + ' Days'">
+                   <label>Enter Age &nbsp;:</label>
+                   <input type  = "text" name = "age">
+                   <input type  = "hidden" name = "days" value = "365">
+                   <output name = "result"></output>
+               </form>
+           </section>
+
+           <!--  HTML Multimedia -->
+           <!--  The HTML <audio> Element -->
+            <section>
+                <h3> Top African Music Recommended</h3>
+                <!-- first song -->
+                <audio controls>
+                    <source src="../Media/se.ogg" type="audio/ogg">
+                    <source src="../Media/se.mp3" type="audio/mpeg">
+                     Your browser does not support the audio element.
+                </audio> 
+                <!-- second song -->
+                <audio controls autoplay>
+                    <source src="../Media/see.ogg" type="audio/ogg">
+                    <source src="../Media/see.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <!-- thrid song -->
+                <!-- play automatic and loop repeit the the song sgsin-->
+                <audio controls autoplay muted loop >
+                    <source src="../Media/seeee.mp3" type="audio/ogg">
+                    <source src="../Media/seeee.mp3" type="audio/mpeg">>
+                    Your browser does not support the audio element.
+                </audio>
+                 <!-- forth song -->
+                <audio controls autoplay>
+                    <source src="../Media/seee.mp3" type="audio/ogg">
+                    <source src="../Media/seee.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+           <!-- html canvas -->
+           <section>
+            <h3> Article About Canvas(Simple Text) </h3>
+            <p> Created by <span>Saddam Arbaa</span> on : </p>
+            <!-- Html time tag -->
+            <time datetime ="2020-10-22"> 10/22/2020</time>
+            <canvas id="cav5">
+            </canvas>
+           </section>
+
+            <section>
+                <h3> Article About Html Canvas </h3>
+                <p> Created by <span>Saddam Arbaa</span> on : </p>
+                <!-- Html time tag -->
+                <time datetime ="2020-10-22"> 10/22/2020</time>
+                <p><h5>canvas </h5></p>
+                <canvas id="cav2">
+                </canvas>
+            </section>
+
+            <section>
+                <canvas id="cav3">
+                </canvas>
+            </section>
+            <section>
+                <h3> Article About Html Canvas(draw line) </h3>
+                <p> Created by <span>Saddam Arbaa</span> on : </p>
+                <!-- Html time tag -->
+                <time datetime ="2020-10-22"> 10/22/2020</time>
+                <p><h5>canvas </h5></p>
+                <canvas id="cav4">
+                </canvas>
+            </section>
+
+            <section>
+                <h3> Article About HTML YouTube Videos </h3>
+                <p> Created by <span>Saddam Arbaa</span> on : </p>
+                 <!-- Html time tag -->
+                <time datetime ="2020-10-22"> 10/22/2020</time>
+                <iframe width= 100% height="315" src="https://www.youtube.com/embed/8DvywoWv6fI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <h4>Python for Everybody - Full University Python Course</h4>
+                <small>1,789,379 views •May 2, 2019</small>
+                <br>
+                <p>This Python 3 tutorial course aims to teach everyone the basics of programming computers using Python. The course has no pre-requisites and avoids all but the simplest mathematics. </p>
+            </section>
+         </aside>
+         
+         <!--   End sidebar -->
+          
+         <!-- this to clear any space after floating -->
+         <div class="clearfix"></div>
+
+         <!-- Start footer -->
+
+         <footer>
+             Copyright 2020 &copy; All Right Reserved
+         </footer>
+
+         <!-- End footer -->
+
+         <!-- Javscript function to control vedio tag -->
+         <script>
+            var myVideo = document.getElementById("video1"); 
+            function playPause()
+            {
+                if(myVideo.paused) 
+                    myVideo.play();
+                else
+                    myVideo.pause(); 
+            }
+            function makeSmall() 
+            { 
+                myVideo.width = 400;
+            } 
+            function makeMedium() 
+            { 
+                myVideo.width = 600; 
+            }
+            function makeNormal() 
+            { 
+                myVideo.width = 680; 
+            }  
+        </script>
+        <!-- contect to javscript file -->
+        <script src="../javascript/index.js"></script>
+    </body>
+</html>
