@@ -64,7 +64,7 @@ a:active
 /* mouse over link */
 nav ul li a:hover 
 { 
-  color: #006699; 
+  color:#4CAF50; 
   text-decoration: underline; 
 }
 
@@ -150,6 +150,29 @@ and floated to left */
 
 }
 
+.post article section  a{
+ color: red;
+
+}
+.post article section
+a:link,
+a:visited,
+a:active 
+{ 
+  color: #3366FF; 
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+/* mouse over link */
+.post article section a:hover 
+{ 
+  color: #006699; 
+  text-decoration: underline;
+  font-weight: bold; 
+}
+
+
 .post article section button,form input{
     padding : 5px;
  }
@@ -177,9 +200,56 @@ and floated to left */
 
 .post .Mozilla  h3 
 {
-  color:red;
   font-weight: bold;
 }
+
+/* Styling Tables  */
+#customers,.names {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#customers th, #customers td ,.names th, .names td
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even),.names tr:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+#customers tr:hover, .names tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.names th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+#customers th, #customers td, .names th, .names td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {background-color: #f2f2f2;}
+
+#customers tr:hover,
+ .name tr:nth-child(even)
+ {
+   background-color: #ddd;
+ }
+ /* End Style Tables */
 
 
 /* End article */
@@ -207,8 +277,17 @@ aside section h3 {
     margin-bottom: 10px;
 }
 
-aside section ul li {
-    line-height: 1.8;
+aside section ul
+{
+  background: #3399ff;
+}
+ 
+
+aside section ul li 
+{
+  line-height: 1.8;
+  background: #cce5ff;
+  margin: 0 5px;
 }
 
 aside section form input, label {
