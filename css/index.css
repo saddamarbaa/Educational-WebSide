@@ -144,6 +144,22 @@ and floated to left */
     margin-bottom: 10px;
 }
 
+.post article.Mozilla
+{
+  text-transform: capitalize;
+}
+.post article section#advice
+{
+  text-transform: capitalize;
+  text-indent: 20px;
+}
+.post article.Mozilla h3, h2 {
+  
+  color: red;
+  font-weight: bold;
+ 
+}
+
 
 /* End article */
 
