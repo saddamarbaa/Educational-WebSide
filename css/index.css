@@ -41,26 +41,46 @@ nav ul {
 
 nav ul li{
     display: inline-block;
-}
-
-nav ul li:after{
-    content:" |"
+    font-weight: bold;
+    margin: 0 20px;
 }
 
 nav ul li:last-child::after{
     content:""
 }
 
+/* Syling Links */
+/* unvisited(a:link) visited(a:visited) link  selected link(a:active)*/
+
+nav ul li
+a:link,
+a:visited,
+a:active 
+{ 
+  color: #3366FF; 
+  text-decoration: none; 
+}
+
+/* mouse over link */
+nav ul li a:hover 
+{ 
+  color: #006699; 
+  text-decoration: underline; 
+}
+
+
 /* End Header */
 
 /* start main content */
 main {
     background-color: #EEE;
-    padding: 20px;
+     padding: 20px;
 }
 
 main p {
     text-align: center;
+    font-size: 22px;
+    
 }
 
 main span {
@@ -72,7 +92,6 @@ main mark {
     background-color: #00f;
     color: #fff;
 }
-
 
 /* End main */
 
@@ -155,11 +174,11 @@ and floated to left */
   text-transform: capitalize;
   text-indent: 20px;
 }
-.post article.Mozilla h3, h2 {
-  
-  color: red;
+
+.post .Mozilla  h3 
+{
+  color:red;
   font-weight: bold;
- 
 }
 
 
@@ -201,7 +220,6 @@ aside section audio {
   
     padding: 10px;
     display: block;
-   
 }
 
 /* End aside */
