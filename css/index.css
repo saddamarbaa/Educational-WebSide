@@ -150,28 +150,34 @@ and floated to left */
 
 }
 
-.post article .imgbox {
+/* Syle image */
+
+.img-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.post article .img-container {
   background-color: #fff;
   margin-top: 10px;
   border: 1px solid #ccc;
   width: 100%; 
   text-align: center; 
-  overflow: hidden;
-  box-sizing: border-box;
-}
+ }
 
-.post article .imgbox  .imgg
+.post article .img-container  .imgg
 {
   float: left;
-  width: 32%;
-  padding: 3px; 
+  width: 33.333333%;
+  padding: 5px; 
 }
 
-.post article .imgbox img{
+.post article .img-container img{
    width: 100%;
    border:1px solid#ccc;
    background-color:#fff;
 }
+
 .post article  button{
   padding: 10  20px;
   font-size: 18px;
