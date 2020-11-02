@@ -150,6 +150,34 @@ and floated to left */
 
 }
 
+.post article .imgbox {
+  background-color: #fff;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: 100%; 
+  text-align: center; 
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.post article .imgbox  .imgg
+{
+  float: left;
+  width: 32%;
+  padding: 3px; 
+}
+
+.post article .imgbox img{
+   width: 100%;
+   border:1px solid#ccc;
+   background-color:#fff;
+}
+.post article  button{
+  padding: 10  20px;
+  font-size: 18px;
+}
+  
+
 .post article section  a{
  color: red;
 

@@ -281,6 +281,34 @@
                     </section>
             </article>
 
+            <article> <!-- Html Images -->
+              <header>
+                  <h3>Article About CSS Layout - The display Property</h3>
+                  <p> Created by <span>Saddam Arbaa</span> on :
+                  <!-- Html time tag -->
+                  <time datetime ="2020-11-02"> 11/2/2020</time> </p>
+              </header>
+              <section class="imgbox">
+                <h4>Hide an Element - display:none or visibility:hidden? </h4>
+                <!-- call removeElement function --> 
+                <div class="imgg" id="imgbox1">
+                  <img src="images/img_lights.jpg" alt="Italy">
+                  <button onclick="removeElement()">Remove</button>
+                </div>
+                <!-- call changeVisibility function --> 
+                <div class="imgg" id="imgbox2">
+                  <img src="images/img_lights.jpg" alt="Italy">
+                  <button onclick="changeVisibility()">Hide</button>
+                </div>
+                <!-- call resetElement function --> 
+                <div class="imgg" id="mgbox">
+                <img src="images/img_forest.jpg" alt="Forest">
+                <button onclick="resetElement()">Reset All</button>
+                </div> 
+              </section>
+          </article>
+
+
             <!--  HTML Multimedia -->
            <!--  The HTML <Video> Element -->
             <article>
@@ -759,6 +787,19 @@
             { 
                 myVideo.width = 680; 
             }  
+            /* Javscript function for images */
+            function removeElement() {
+            document.getElementById("imgbox1").style.display = "none";
+            }
+
+            function changeVisibility() {
+            document.getElementById("imgbox2").style.visibility = "hidden";
+            }
+
+            function resetElement() {
+              document.getElementById("imgbox1").style.display = "block";
+              document.getElementById("imgbox2").style.visibility = "visible";
+            }
         </script>
         <!-- contect to javscript file -->
         <script src="../javascript/index.js"></script>
