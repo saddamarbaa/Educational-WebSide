@@ -151,7 +151,6 @@ and floated to left */
     border: 1px solid #ccc;
     width: 100%; 
     text-align: center; 
-  
 }
 
 .post article section .img-figure  img{
@@ -159,10 +158,24 @@ and floated to left */
    padding: 3px;
    background-color:#fff;
    width: 32%; 
-
 }
 
-/* Syle image */
+/*  Styling Over to Show the hight element */
+.Hover  
+{
+  background: #4CAF50;
+  font-weight: bold;
+}
+
+.post article .hid{
+  display: none;
+  border: 1px solid blue;
+}
+
+.Hover-section:hover .hid{
+  display: block;
+}
+
 
 .img-container::after {
   content: "";
