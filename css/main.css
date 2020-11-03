@@ -203,6 +203,12 @@ and floated to left */
    background-color:#fff;
 }
 
+/* add Opacity / Transparency  to the image on hover */
+.post article .img-container img:hover{
+  opacity: 0.5;
+}
+
+
 .post article  button{
   padding: 10  20px;
   font-size: 18px;
