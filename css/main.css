@@ -39,50 +39,40 @@ a{
     text-align: center; 
 }
 
-/* Syling Links */
-/* unvisited(a:link) visited(a:visited) link  selected link(a:active)*/
+/* Syling  main nav Links */
 
-nav ul {
-  padding: 20px;
-  text-align: center;
+nav ul
+{
+  overflow: hidden;
   background-color: #333;
+  text-align: center;
+  font-size: 20px;
 }
+  
 
 nav ul li{
-  
-  display: inline-block;
+  float: left;
   padding: 20px;
 }
 
-nav ul  li a {
+nav ul li a{
+  display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 5px;
+  padding: 18px 20px;
 }
 
-.active {
-  background-color: red;
+nav .active {
+  background-color: #4CAF50;
 }
 
-nav ul li
-a:link,
-a:visited,
-a:active 
-{ 
-  color:white;
-} 
 
-
-/* mouse over link  */
-nav ul li a:hover 
-{ 
-  
-  text-decoration: underline; 
-  background-color: #111;
+nav li:hover:not(.active)
+{
+  background: #111;
 }
+
+
 
 
 /* End Header */
