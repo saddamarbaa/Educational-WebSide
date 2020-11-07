@@ -49,18 +49,18 @@ nav ul
   font-size: 20px;
 }
   
-
 nav ul li{
   float: left;
   padding: 20px;
 }
 
-nav ul li a{
+nav ul li a {
   display: block;
   color: white;
   text-align: center;
   padding: 18px 20px;
 }
+
 
 nav .active {
   background-color: #4CAF50;
@@ -72,8 +72,42 @@ nav li:hover:not(.active)
   background: #111;
 }
 
+/* styling Dropdown Navbar */
 
+/* Style The Dropdown Button */
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 22px;
+  cursor: pointer;
+}
 
+/* The container <div> - needed to position the dropdown content */
+li.dropdown {
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:  #4CAF50;
+  color: white;
+ }
+
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* End Header */
 
